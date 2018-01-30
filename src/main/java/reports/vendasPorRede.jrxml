@@ -298,7 +298,7 @@ WHERE
 	<pageHeader>
 		<band height="60">
 			<textField pattern="">
-				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="555" height="30" isRemoveLineWhenBlank="true" forecolor="#000000" backcolor="#FFFFFF" uuid="06e29f38-333a-40db-b06d-a27817cb01e6">
+				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="555" height="30" isRemoveLineWhenBlank="true" forecolor="#000000" backcolor="#FFFFFF" uuid="84d846c4-72d1-4ff1-9342-695c450c25f1">
 					<printWhenExpression><![CDATA[new java.lang.Boolean(((Number)$V{PAGE_NUMBER}).doubleValue() == 1)]]></printWhenExpression>
 				</reportElement>
 				<box>
@@ -313,7 +313,7 @@ WHERE
 				<textFieldExpression><![CDATA["Relatório de vendas por rede"]]></textFieldExpression>
 			</textField>
 			<textField pattern="">
-				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="37" width="105" height="14" isRemoveLineWhenBlank="true" forecolor="#000000" backcolor="#FFFFFF" uuid="868c32ad-4d67-46d4-ab9b-04b8190063c3">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="37" width="105" height="14" isRemoveLineWhenBlank="true" forecolor="#000000" backcolor="#FFFFFF" uuid="f9f11e6d-9757-477c-b241-ff1b42a077ef">
 					<printWhenExpression><![CDATA[new java.lang.Boolean(((Number)$V{PAGE_NUMBER}).doubleValue() == 1)]]></printWhenExpression>
 				</reportElement>
 				<box>
@@ -326,7 +326,7 @@ WHERE
 				<textFieldExpression><![CDATA["Vendas no período: "]]></textFieldExpression>
 			</textField>
 			<textField pattern="dd/MM/yyyy">
-				<reportElement mode="Transparent" x="105" y="38" width="100" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="9762e349-04e8-43f6-8787-e387ce4fd079"/>
+				<reportElement mode="Transparent" x="105" y="37" width="100" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="733be372-7206-4ac4-a746-2f02ffd9c8cf"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -339,7 +339,7 @@ WHERE
 				<textFieldExpression><![CDATA[$P{DATA_INI}]]></textFieldExpression>
 			</textField>
 			<staticText>
-				<reportElement mode="Transparent" x="205" y="38" width="15" height="14" forecolor="#000000" backcolor="#FFFFFF" uuid="ca902801-cb3c-48d1-838d-f6424a4906b7"/>
+				<reportElement mode="Transparent" x="205" y="37" width="15" height="14" forecolor="#000000" backcolor="#FFFFFF" uuid="455f9c82-34b9-404e-8b18-bbe220c28c45"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -352,7 +352,7 @@ WHERE
 				<text><![CDATA[Á]]></text>
 			</staticText>
 			<textField pattern="dd/MM/yyyy">
-				<reportElement mode="Transparent" x="219" y="38" width="100" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="a6118ae9-a1c9-4f05-b814-e4a2cc072d70"/>
+				<reportElement mode="Transparent" x="219" y="37" width="100" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="ad96e669-77a6-4e74-8ff9-a5afe00f9b25"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -369,7 +369,7 @@ WHERE
 	<detail>
 		<band height="20">
 			<textField pattern="">
-				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="0" width="79" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="3e586fe0-7916-41f4-879e-80cf124bac6c"/>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="0" width="79" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="b7fa2963-4d0c-477b-a1fb-cd4b223deeaf"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -380,7 +380,7 @@ WHERE
 				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
 			</textField>
 			<textField pattern="">
-				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="79" y="0" width="79" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="6a2ee599-72cf-485c-9e49-e17010a11da4"/>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="79" y="0" width="79" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="4137f34c-a98c-4f12-b215-190ec95cf051"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -391,7 +391,7 @@ WHERE
 				<textFieldExpression><![CDATA[$F{valor}]]></textFieldExpression>
 			</textField>
 			<textField pattern="">
-				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="158" y="0" width="79" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="a11e6e4e-4b87-4722-beb6-36c72336b025"/>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="158" y="0" width="79" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="2c8e6ee7-ea71-453d-83d9-8ce46676291e"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -402,7 +402,7 @@ WHERE
 				<textFieldExpression><![CDATA[$F{cnpj}]]></textFieldExpression>
 			</textField>
 			<textField pattern="">
-				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="237" y="0" width="79" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="804481d2-fabc-4ead-b969-2a6622086436"/>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="237" y="0" width="79" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="d3eb157b-735f-4728-9a0b-cb4d68f68636"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -413,7 +413,7 @@ WHERE
 				<textFieldExpression><![CDATA[$F{uf}]]></textFieldExpression>
 			</textField>
 			<textField pattern="">
-				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="315" y="0" width="159" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="584d700e-8a2a-4b81-9bd9-2506bc22fcbf"/>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="315" y="0" width="159" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="6ec6b185-d1d2-49cc-98f9-a6b298e29a8b"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -424,7 +424,7 @@ WHERE
 				<textFieldExpression><![CDATA[$F{cidade}]]></textFieldExpression>
 			</textField>
 			<textField pattern="dd/MM/yyyy">
-				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="473" y="0" width="81" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="35554664-d4ba-4c65-948b-ebc14a6e894b"/>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="473" y="0" width="81" height="15" isPrintWhenDetailOverflows="true" forecolor="#000000" backcolor="#FFFFFF" uuid="1a938153-9786-4eb0-a8db-1bbd7210818b"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -439,7 +439,7 @@ WHERE
 	<pageFooter>
 		<band height="15">
 			<textField>
-				<reportElement mode="Transparent" x="197" y="0" width="80" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="60099acf-dd93-479d-a8ad-1b469d79933c"/>
+				<reportElement mode="Transparent" x="197" y="0" width="80" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="8b5f9248-34ac-4ea5-9926-77d1942c9e29"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -450,7 +450,7 @@ WHERE
 				<textFieldExpression><![CDATA[""+" " + ($V{PAGE_NUMBER}+0)+" " + ""]]></textFieldExpression>
 			</textField>
 			<textField evaluationTime="Report">
-				<reportElement mode="Transparent" x="277" y="0" width="80" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="2db7c9b6-fa5f-49d7-84c2-4f5f51570f09"/>
+				<reportElement mode="Transparent" x="277" y="0" width="80" height="15" forecolor="#000000" backcolor="#FFFFFF" uuid="46d77132-2287-4a5a-9e3d-87b3f578cdc0"/>
 				<box>
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
